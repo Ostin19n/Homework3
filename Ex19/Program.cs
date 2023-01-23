@@ -6,13 +6,13 @@
 
 // 23432 -> да
 
-void CheckNumberPal (int number)
+void CheckNumberPal(int number)
 {
     if (number >= 10000)
     {
         int division = number / 10000;
         int remainder = number % 10;
-        if(division == remainder)
+        if (division == remainder)
         {
             Console.WriteLine("Число является палиндромом");
         }
@@ -27,13 +27,13 @@ void CheckNumberPal (int number)
     }
 }
 
-int enternumber (string text)
+int enternumber(string text)
 {
     Console.WriteLine(text);
     int number = int.Parse(Console.ReadLine());
     return number;
 }
 
-int GetNum = enternumber ("Введите пятизначное число: ");
+int GetNum = enternumber("Введите пятизначное число: ");
 
 CheckNumberPal(GetNum);

@@ -7,7 +7,7 @@
 
 void Distance(double x1, double y1, double z1, double x2, double y2, double z2)
 {
-    double dis = Math.Pow((Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2) *1.0), 0.5);
+    double dis = Math.Pow((Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2) * 1.0), 0.5);
     Console.Write(dis);
 
 }
@@ -26,5 +26,5 @@ double x2 = getNum("Введите третью  координату точки
 double y2 = getNum("Введите третью  координату точки B");
 double z2 = getNum("Введите третью  координату точки B");
 
-Distance(x1,y1,z1,
-        x2,y2,z2);
+Distance(x1, y1, z1,
+        x2, y2, z2);
